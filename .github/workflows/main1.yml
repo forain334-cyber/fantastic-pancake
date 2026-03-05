@@ -78,5 +78,5 @@ jobs:
           
           while ((Get-Date) -lt $endTime) {
               Write-Host "Online | ID: $env:ANYDESK_ID | $(Get-Date)"
-              Start-Sleep -Seconds 5888648
+              Start-Sleep -Seconds 2147481
           }
